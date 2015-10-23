@@ -17,10 +17,17 @@ var options = {
     certificateCheck: function certificateCheck() {
       return 1;
     }
+  },
+  fetchOpts: {
+    callbacks: {
+      certificateCheck: function certificateCheck() {
+        return 1;
+      }
+    }
   }
 };
 
 var clone = function clone(repo) {
-  return (0, _highland2['default'])(_nodegit.Clone.clone('https://github.com/' + repo, "__tmp__", options));
+  return (0, _highland2['default'])(_nodegit.Clone.clone('http://github.com/' + repo, "__tmp__", options));
 };
 exports.clone = clone;
