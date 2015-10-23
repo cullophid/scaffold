@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cullophid/scaffold.git"
+    "url": "git+https://github.com/cullophid/sous-chef.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cullophid/scaffold/issues"
+    "url": "https://github.com/cullophid/sous-chef/issues"
   },
-  "homepage": "https://github.com/cullophid/scaffold#readme",
+  "homepage": "https://github.com/cullophid/sous-chef#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "handlebars": "^4.0.3",
