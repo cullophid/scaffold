@@ -1,13 +1,12 @@
-const inquirer = require('inquirer');
+import * as git from './src/git';
+import {Clone} from 'nodegit';
 
-inquirer.prompt([
-  {
-  type: "input",
-  name: "appName",
-  message: "What is your apps name"
-  },
-],
-(err, result) => {
-  console.log(err);
-  console.log(result);
-});
+
+git.clone('cullophid/webapp-template')
+  .map(stuff => {
+    console.log('MAP', stuff);
+  })
+  .errors(err => {
+    console.log('Error:', err);
+  })
+  .done();

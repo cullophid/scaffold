@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const pkg = require('../package.json')
-const scaffold = require('../')
+const scaffold = require('../build');
 const repo = process.argv[2];
 scaffold(repo);
