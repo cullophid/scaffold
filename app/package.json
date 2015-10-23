@@ -1,7 +1,7 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "description": "",
+  "description": " AAAAAwesome",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,8 @@
   },
   "homepage": "https://github.com/cullophid/scaffold#readme",
   "dependencies": {
-    "handlebars": "^4.0.3",
-    "highland": "^2.5.1",
-    "ramda": "^0.18.0",
-    "vinyl-fs": "^2.2.1"
+    "gulp": "^3.9.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-rename": "^1.2.2"
   }
 }
