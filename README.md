@@ -1,6 +1,6 @@
-# Scaffold
+# Sous Chef
 
-*Tool for scaffolding projects*
+*Tool for bootstrapping projects*
 
 ## Motivation
 I am too stupid or impatient to learn to use Yeoman.
@@ -8,11 +8,11 @@ I am too stupid or impatient to learn to use Yeoman.
 
 ## How to use
 
-run `scaffold <repo>`  where repo points to the github repo of the template.
+run `souschef <repo>`  where repo points to the github repo of the template.
 
 
 ```
 
-scaffold cullophid/webapp-template
+souschef cullophid/webapp-template
 
 ```

@@ -1,8 +1,8 @@
 {
-  "name": "prototype",
+  "name": "sous-chef",
   "version": "1.0.1",
   "bin": {
-    "scaffold": "bin/scaffold"
+    "souschef": "bin/souschef"
   },
   "description": "",
   "main": "index.js",
