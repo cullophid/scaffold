@@ -1,5 +1,5 @@
 {
-  "name": "scaffold",
+  "name": "prototype",
   "version": "1.0.1",
   "bin": {
     "scaffold": "bin/scaffold"
