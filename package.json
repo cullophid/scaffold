@@ -1,6 +1,9 @@
 {
   "name": "scaffold",
   "version": "1.0.1",
+  "bin": {
+    "scaffold": "bin/scaffold"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +23,7 @@
     "commander": "^2.9.0",
     "handlebars": "^4.0.3",
     "highland": "^2.5.1",
+    "inquirer": "^0.11.0",
     "nodegit": "^0.5.0",
     "ramda": "^0.18.0",
     "rimraf": "^2.4.3",
