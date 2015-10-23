@@ -5,6 +5,11 @@ import _ from 'highland';
 const options = {
   remoteCallbacks: {
     certificateCheck: () => 1
+  },
+  fetchOpts: {
+    callbacks: {
+      certificateCheck: () => 1
+    }
   }
 };
 
