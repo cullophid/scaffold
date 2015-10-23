@@ -12,7 +12,15 @@ var _highland = require('highland');
 
 var _highland2 = _interopRequireDefault(_highland);
 
+var options = {
+  remoteCallbacks: {
+    certificateCheck: function certificateCheck() {
+      return 1;
+    }
+  }
+};
+
 var clone = function clone(repo) {
-  return (0, _highland2['default'])(_nodegit.Clone.clone('https://github.com/' + repo, "__tmp__", null));
+  return (0, _highland2['default'])(_nodegit.Clone.clone('https://github.com/' + repo, "__tmp__", options));
 };
 exports.clone = clone;
