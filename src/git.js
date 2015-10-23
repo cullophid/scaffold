@@ -14,4 +14,4 @@ const options = {
 };
 
 export const clone = repo =>
-  _(Clone.clone(`https://github.com/${repo}`, "__tmp__", options));
+  _(Clone.clone(`http://github.com/${repo}`, "__tmp__", options));
