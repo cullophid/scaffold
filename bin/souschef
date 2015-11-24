@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-const scaffold = require('../build');
-const repo = process.argv[2];
-scaffold(repo);
+const souschef = require('../dist')
+
+souschef(process.argv[2])

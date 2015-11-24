@@ -1,34 +1,22 @@
 {
-  "name": "sous-chef",
-  "version": "1.1.4",
+  "name": "cloner",
+  "version": "1.0.0",
+  "description": "",
   "bin": {
     "souschef": "bin/souschef"
   },
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "babel src -d build",
-    "build-watch": "babel --watch src -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cullophid/sous-chef.git"
+    "build": "coffee -c -o dist src",
+    "prewatch": "npm run build",
+    "watch": "coffee -cw -o dist src"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cullophid/sous-chef/issues"
-  },
-  "homepage": "https://github.com/cullophid/sous-chef#readme",
   "dependencies": {
-    "commander": "^2.9.0",
-    "handlebars": "^4.0.3",
-    "highland": "^2.5.1",
-    "inquirer": "^0.11.0",
-    "js-yaml": "^3.4.3",
+    "coffee": "^2.1.0",
     "nodegit": "^0.5.0",
+    "npm": "^3.4.1",
     "ramda": "^0.18.0",
-    "rimraf": "^2.4.3",
-    "vinyl-fs": "^2.2.1"
+    "rimraf": "^2.4.4"
   }
 }
