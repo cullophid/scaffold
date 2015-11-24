@@ -1,4 +1,10 @@
 #!/usr/bin/env node
 const souschef = require('../dist')
+const repo = process.argv[2]
 
-souschef(process.argv[2])
+if (!repo) {
+  console.error('You must provide a git repository on the form \'user/repository\'')
+  return
+}
+
+souschef(repo)
